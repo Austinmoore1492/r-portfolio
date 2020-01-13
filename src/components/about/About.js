@@ -17,7 +17,7 @@ const About = () => (
         <div className="line" />
         <h2 className="text-primary">Started From Nothing</h2>
         <p className="py">
-          From the first time I wrote a Hello Wold program, at that time is was
+          From the first time I wrote a Hello World program, at that time is was
           C++, I knew I was hooked. That began a long road of learning and
           creating. However, I never would have dreamed I would've been a
           developer.

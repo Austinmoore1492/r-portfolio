@@ -10,7 +10,7 @@ const ProfileTop = () => (
       /> */}
       <div className="profile-info">
         <h1 className="large">Austin Moore</h1>
-        <p className="lead">Knowledge Manger/Web Developer</p>
+        <p className="lead">Knowledge Manager/Web Developer</p>
         <p className="lead">at BMA</p>
         <div className="icons my-1">
           <a

@@ -13,7 +13,10 @@ const Projects = () => (
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="./img/storePic.png" alt="Beat The Clock Website" />
+              <img
+                src="./img/storePic.png"
+                alt="Ecommerce Store Built in React"
+              />
             </a>
             <h3>React E-Commerce Store</h3>
             <p>React E-Commerce Store</p>
