@@ -29,15 +29,13 @@ const Navbar = () => {
         </li>
         |
         <li>
-          <Link to="/about">About Me</Link>
+          <Link to="/about">About</Link>
         </li>
         |
         <li>
-          <li>
-            <a href="./Resume.pdf" target="_blank" rel="noopener noreferrer">
-              Resume
-            </a>
-          </li>
+          <a href="./Resume.pdf" target="_blank" rel="noopener noreferrer">
+            Resume
+          </a>
         </li>
       </ul>
     </nav>

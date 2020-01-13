@@ -625,17 +625,17 @@ input {
   .p-border {
     width: 100%;
   }
+}
 
-  @media (max-width: 700px) {
-    .profile-top,
-    .about-top,
-    .projects-top {
-      grid-row: 1;
-      grid-column: 1;
-      -ms-grid-row: 1;
-      -ms-grid-column: 1;
-      -ms-grid-column-span: 1;
-    }
+@media (max-width: 700px) {
+  .profile-top,
+  .about-top,
+  .projects-top {
+    grid-row: 1;
+    grid-column: 1;
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
   }
   .profile-top img,
   .profile img {
@@ -695,6 +695,9 @@ input {
     grid-column: 1;
     -ms-grid-row: 7;
     -ms-grid-column: 1;
+  }
+  .img img {
+    width: 100%;
   }
 }
 
