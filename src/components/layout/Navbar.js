@@ -7,11 +7,11 @@ const Navbar = () => {
     window.scrollY <= 100
       ? nav.setAttribute(
           "style",
-          "background-color: #343a40; border-color: #003b6f"
+          "background-color: #343a40; border-color: #003b6f;"
         )
       : nav.setAttribute(
           "style",
-          "background-color: #003b6f; border-color: #343a40"
+          "background-color: #003b6f; border-color: #343a40;"
         );
   };
   return (
