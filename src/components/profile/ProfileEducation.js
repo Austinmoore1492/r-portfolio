@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 
 const ProfileEducation = () => (
   <Fragment>
-    <div className="profile-edu bg-white p-2">
+    <div className="profile-edu bg-white">
       <div>
         <h3>Columbia College</h3>
         <p>Jan 2014 - Dec 2018</p>

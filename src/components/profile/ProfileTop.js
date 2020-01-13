@@ -21,18 +21,11 @@ const ProfileTop = () => (
             <i className="fab fa-github fa-2x p-1" />
           </a>
           <a
-            href="https://twitter.com/austinmoore1492"
+            href="mailto:austinmoore1492@yahoo.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <i className="fab fa-twitter fa-2x p-1" />
-          </a>
-          <a
-            href="https://www.facebook.com/austin.moore.1492"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <i className="fab fa-facebook fa-2x p-1" />
+           <i className="fas fa-envelope-open-text fa-2x p-1"></i>
           </a>
           <a
             href="https://www.linkedin.com/in/austin-moore-668807146/"
