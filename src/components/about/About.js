@@ -9,10 +9,10 @@ const About = () => (
       <div className="profile-about bg-light p-2">
         <h2 className="text-primary">Who I am</h2>
         <p className="lead">
-          Hello, my name is Austin. As said in my short bio I am determined,
-          confident, and a hobbyist developer. Taking something from absolutely
-          nothing and building out amazing intricate applications is my lifes
-          goal.
+          Hello, my name is Austin. As said in my short bio I am Determined,
+          Confident, and I'm a Hobbyist Developer. Taking something from
+          absolutely nothing and building out amazing intricate applications is
+          my lifes goal.
         </p>
         <div className="line" />
         <h2 className="text-primary">Started From Nothing</h2>
@@ -26,7 +26,10 @@ const About = () => (
           From there I just kept learning new technologies and new techniques.
           From building a simple hangman game to launching my first mobile game
           on the{" "}
-          <a href="https://play.google.com/store/apps/details?id=com.YourCompany.Ace12&hl=en_US">
+          <a
+            className="border-bottom"
+            href="https://play.google.com/store/apps/details?id=com.YourCompany.Ace12&hl=en_US"
+          >
             Google Play Store
           </a>
           . After that I wanted to learn even more and dug deep into JavaScript.

@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   window.onscroll = () => {
     const nav = document.querySelector("#navbar");
-    window.scrollY <= 50
-      ? (nav.style.backgroundColor = "#333")
-      : (nav.style.backgroundColor = "#003b6f");
+    window.scrollY <= 100
+      ? (nav.style.opacity = "0.8")
+      : (nav.style.opacity = "1");
   };
   return (
     <nav id="navbar" className="navbar bg-dark">
@@ -19,7 +19,7 @@ const Navbar = () => {
       </h1>
       <ul>
         <li>
-          <Link to="/profiles">Projects</Link>
+          <Link to="/projects">Projects</Link>
         </li>
         <li>
           <Link to="/about">About Me</Link>
