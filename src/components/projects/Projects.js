@@ -163,7 +163,8 @@ const Projects = () => (
               <img src="./img/other.png" alt="Other Projects" />
             </a>
             <h3>Other Projects</h3>
-            <p>Other Projects on GitHub</p>
+            <p>GitHub</p>
+            <p className="p-border">All Other Projects!</p>
             <a
               href="https://github.com/Austinmoore1492"
               target="_blank"
