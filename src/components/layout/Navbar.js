@@ -5,8 +5,14 @@ const Navbar = () => {
   window.onscroll = () => {
     const nav = document.querySelector("#navbar");
     window.scrollY <= 100
-      ? (nav.style.opacity = "0.8")
-      : (nav.style.opacity = "1");
+      ? nav.setAttribute(
+          "style",
+          "background-color: #343a40; border-color: #003b6f"
+        )
+      : nav.setAttribute(
+          "style",
+          "background-color: #003b6f; border-color: #343a40"
+        );
   };
   return (
     <nav id="navbar" className="navbar bg-dark">
@@ -21,8 +27,17 @@ const Navbar = () => {
         <li>
           <Link to="/projects">Projects</Link>
         </li>
+        |
         <li>
           <Link to="/about">About Me</Link>
+        </li>
+        |
+        <li>
+          <li>
+            <a href="./myResume.pdf" target="_blank" rel="noopener noreferrer">
+              Resume
+            </a>
+          </li>
         </li>
       </ul>
     </nav>
