@@ -9,6 +9,28 @@ const Projects = () => (
         <div id="img">
           <div className="img">
             <a
+              href="https://github.com/Austinmoore1492/FLWConnected-Front-End"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src="./img/FLW-Connected.png" alt="FLW-Connected" />
+            </a>
+            <h3>FLW Connected</h3>
+            <p>For the Community, From the Community</p>
+            <p className="p-border">
+              Built with React, Redux, Express, and MongoDB
+            </p>
+            <a
+              href="https://github.com/Austinmoore1492/FLWConnected-Front-End"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Code
+            </a>
+          </div>
+
+          <div className="img">
+            <a
               href="https://react-test-store.herokuapp.com/"
               target="_blank"
               rel="noopener noreferrer"
@@ -122,34 +144,6 @@ const Projects = () => (
             |
             <a
               href="https://csb-5ykb2.austinmoore1492.now.sh/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Live Site
-            </a>
-          </div>
-
-          <div className="img">
-            <a
-              href="https://austinmoore1492.github.io/Random-Meal-Generator/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src="./img/mealGen.png" alt="Random Meal Website" />
-            </a>
-            <h3>Random Meal Generator</h3>
-            <p>No More Wondering What's For Dinner</p>
-            <p className="p-border">Built with Vanilla JS, HTML, and CSS!</p>
-            <a
-              href="https://github.com/Austinmoore1492/Random-Meal-Generator"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Code
-            </a>
-            |
-            <a
-              href="https://austinmoore1492.github.io/Random-Meal-Generator/"
               target="_blank"
               rel="noopener noreferrer"
             >
