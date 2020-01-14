@@ -385,7 +385,7 @@ input {
   text-align: center;
   background: var(--primary-color);
   color: #f7f7f7;
-  background: url("../../img/flw-banner.PNG") no-repeat center center/cover;
+  background: url("../../../img/flw-banner.PNG") no-repeat center center/cover;
   padding: 1rem;
   min-height: 300px;
 }
@@ -690,11 +690,6 @@ input {
     -ms-grid-columns: 1fr 1rem 1fr;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 1rem;
-  }
-  .profile-top,
-  .about-top,
-  .projects-top {
-    background: url("./img/flw-banner.PNG") no-repeat center center/cover;
   }
   .profile-info {
     display: -webkit-box;
