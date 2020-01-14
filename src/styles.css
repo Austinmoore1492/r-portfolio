@@ -1,7 +1,6 @@
 /* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.23, autoprefixer: v9.7.3) */
 
 @import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
-
 /* Global Styles */
 :root {
   --primary-color: #003b6f;
@@ -385,14 +384,9 @@ input {
   text-align: center;
   background: var(--primary-color);
   color: #f7f7f7;
-  background: url("../../../img/flw-banner.PNG") no-repeat center center/cover;
+  background: url("/flw-banner.PNG") no-repeat center center/cover;
   padding: 1rem;
   min-height: 300px;
-}
-
-.about-top,
-.projects-top {
-  height: 200px;
 }
 
 .profile-top::after,
