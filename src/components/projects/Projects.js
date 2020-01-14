@@ -11,7 +11,7 @@ const Projects = () => {
   return (
     <Fragment>
       <ProjectsTop />
-      <div className="profileContainer">
+      <div className="profileContainer m-auto">
         <div id="projects">
           <div id="img">
             <div data-aos="fade-right" className="img">

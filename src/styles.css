@@ -330,31 +330,6 @@ input {
   text-align: center;
 }
 
-.about-text {
-  text-align: center;
-  padding-top: 1rem;
-  position: relative;
-  margin: 0 auto;
-  margin-bottom: 1rem;
-  width: 50%;
-  padding-bottom: 0.5rem;
-}
-
-.about-text:after {
-  background: linear-gradient(
-    90deg,
-    rgba(149, 0, 145, 1) 20%,
-    rgba(0, 212, 255, 1) 50%,
-    rgba(149, 0, 145, 1) 80%
-  );
-  position: absolute;
-  content: "";
-  height: 4px;
-  right: 0;
-  left: 0;
-  bottom: 0;
-}
-
 .border-bottom {
   border-bottom: 2px solid var(--primary-color);
   transition: all 0.3s ease;
@@ -410,9 +385,9 @@ input {
   text-align: center;
   background: var(--primary-color);
   color: #f7f7f7;
-  background: url("https://images.pexels.com/photos/1714208/pexels-photo-1714208.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260")
-    no-repeat center center/cover;
+  background: url("./img/flw-banner.PNG") no-repeat center center/cover;
   padding: 1rem;
+  min-height: 300px;
 }
 
 .about-top,
@@ -420,25 +395,17 @@ input {
   height: 200px;
 }
 
-.profile-top::after {
+.profile-top::after,
+.about-top::after,
+.projects-top::after {
   content: "";
   background: rgb(0, 0, 0);
   background: linear-gradient(
     90deg,
     rgba(0, 0, 0, 0.1) 0%,
-    rgba(0, 0, 0, 0.75) 30%,
-    rgba(0, 0, 0, 0.75) 70%,
-    rgba(0, 0, 0, 0.1) 100%
+    rgba(0, 0, 0, 0.75) 50%,
+    rgba(0, 0, 0, 1) 100%
   );
-  position: absolute;
-  width: 100%;
-  height: 100%;
-}
-
-.about-top::after,
-.projects-top::after {
-  content: "";
-  background: rgba(0, 0, 0, 0.65);
   position: absolute;
   width: 100%;
   height: 100%;
@@ -544,9 +511,6 @@ input {
   }
 
   /* About Section*/
-  .about-text {
-    width: 90%;
-  }
   .about-lead {
     font-size: 1.5rem;
     text-align: center;
@@ -605,6 +569,24 @@ input {
     -ms-flex-pack: center;
     justify-content: center;
     text-align: center;
+    min-height: 250px;
+  }
+
+  .profile-top::after,
+  .about-top::after,
+  .projects-top::after {
+    content: "";
+    background: rgb(0, 0, 0);
+    background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.1) 0%,
+      rgba(0, 0, 0, 0.75) 30%,
+      rgba(0, 0, 0, 0.75) 70%,
+      rgba(0, 0, 0, 0.1) 100%
+    );
+    position: absolute;
+    width: 100%;
+    height: 100%;
   }
 
   /* Projects Page */
@@ -712,8 +694,7 @@ input {
   .profile-top,
   .about-top,
   .projects-top {
-    background: url("https://images.pexels.com/photos/1714208/pexels-photo-1714208.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260")
-      no-repeat center center/cover;
+    background: url("./img/flw-banner.PNG") no-repeat center center/cover;
   }
   .profile-info {
     display: -webkit-box;
