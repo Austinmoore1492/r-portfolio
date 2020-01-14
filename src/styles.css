@@ -385,7 +385,7 @@ input {
   text-align: center;
   background: var(--primary-color);
   color: #f7f7f7;
-  background: url("./img/flw-banner.PNG") no-repeat center center/cover;
+  background: url("../img/flw-banner.PNG") no-repeat center center/cover;
   padding: 1rem;
   min-height: 300px;
 }
