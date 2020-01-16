@@ -1,9 +1,9 @@
-import React, { Fragment, useEffect } from "react";
-import AOS from "aos";
-import ProfileTop from "./ProfileTop";
-import ProfileAbout from "./ProfileAbout";
-import ProfileExperience from "./ProfileExperience";
-import ProfileEducation from "./ProfileEducation";
+import React, { Fragment, useEffect } from 'react';
+import AOS from 'aos';
+import ProfileTop from './ProfileTop';
+import ProfileAbout from './ProfileAbout';
+import ProfileExperience from './ProfileExperience';
+import ProfileEducation from './ProfileEducation';
 
 const Profile = () => {
   useEffect(() => {
@@ -14,8 +14,8 @@ const Profile = () => {
     <Fragment>
       <ProfileTop />
       <div className="profileContainer m-auto">
+        <ProfileAbout />
         <div className="profile-grid">
-          <ProfileAbout />
           <div data-aos="fade-right" className="profile-exp bg-white p-2">
             <h2 className="text-primary">Experience</h2>
 

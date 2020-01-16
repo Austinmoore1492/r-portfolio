@@ -1,7 +1,7 @@
-import React, { Fragment, useEffect } from "react";
-import AOS from "aos";
+import React, { Fragment, useEffect } from 'react';
+import AOS from 'aos';
 
-import AboutTop from "./AboutTop";
+import AboutTop from './AboutTop';
 
 const About = () => {
   useEffect(() => {
@@ -15,10 +15,10 @@ const About = () => {
         <div className="profile-about bg-light p-2">
           <h2 className="text-primary">Who I am</h2>
           <p className="lead">
-            Hello, my name is Austin. As said in my short bio I am Determined,
-            Confident, and I'm a Hobbyist Developer. Taking something from
-            absolutely nothing and building out amazing intricate applications
-            is my lifes goal.
+            Hello, my name is Austin. As said in my short bio I am a Determined,
+            Confident, and Hobbyist Developer. Taking something from absolutely
+            nothing and building out amazing intricate applications is my lifes
+            goal.
           </p>
           <div className="line" />
           <h2 className="text-primary">Started From Nothing</h2>
@@ -31,7 +31,7 @@ const About = () => {
           <p data-aos="fade-left" className="py">
             From there I just kept learning new technologies and new techniques.
             From building a simple hangman game to launching my first mobile
-            game on the{" "}
+            game on the{' '}
             <a
               className="border-bottom"
               href="https://play.google.com/store/apps/details?id=com.YourCompany.Ace12&hl=en_US"
