@@ -1,40 +1,33 @@
-import React, { Fragment, useEffect } from 'react';
-import AOS from 'aos';
+import React, { Fragment } from 'react';
 import ProfileTop from './ProfileTop';
 import ProfileAbout from './ProfileAbout';
 import ProfileExperience from './ProfileExperience';
 import ProfileEducation from './ProfileEducation';
 
-const Profile = () => {
-  useEffect(() => {
-    AOS.init();
-  }, []);
+const Profile = () => (
+  <Fragment>
+    <ProfileTop />
+    <div className="profileContainer m-auto">
+      <ProfileAbout />
+      <div className="profile-grid">
+        <div className="profile-exp bg-white p-2">
+          <h2 className="text-primary">Experience</h2>
 
-  return (
-    <Fragment>
-      <ProfileTop />
-      <div className="profileContainer m-auto">
-        <ProfileAbout />
-        <div className="profile-grid">
-          <div data-aos="fade-right" className="profile-exp bg-white p-2">
-            <h2 className="text-primary">Experience</h2>
+          <Fragment>
+            <ProfileExperience />
+          </Fragment>
+        </div>
 
-            <Fragment>
-              <ProfileExperience />
-            </Fragment>
-          </div>
+        <div className="profile-edu bg-white p-2">
+          <h2 className="text-primary">Education</h2>
 
-          <div data-aos="fade-left" className="profile-edu bg-white p-2">
-            <h2 className="text-primary">Education</h2>
-
-            <Fragment>
-              <ProfileEducation />
-            </Fragment>
-          </div>
+          <Fragment>
+            <ProfileEducation />
+          </Fragment>
         </div>
       </div>
-    </Fragment>
-  );
-};
+    </div>
+  </Fragment>
+);
 
 export default Profile;

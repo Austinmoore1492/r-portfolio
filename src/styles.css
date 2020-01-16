@@ -354,11 +354,8 @@ input {
 .profile-grid {
   display: -ms-grid;
   display: grid;
-  grid-template-areas:
-    'top top'
-    'about about'
-    'exp edu'
-    'github github';
+  margin-top: 1rem;
+  grid-template-areas: 'exp edu';
   grid-gap: 1rem;
 }
 
@@ -372,7 +369,6 @@ input {
   -ms-grid-column-span: 3;
   position: relative;
   margin-top: 4rem;
-  grid-area: top;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -428,7 +424,6 @@ input {
   -ms-grid-row: 3;
   -ms-grid-column: 1;
   -ms-grid-column-span: 3;
-  grid-area: about;
   text-align: center;
 }
 
@@ -447,19 +442,11 @@ input {
 
 .profile-exp {
   word-break: break-word;
-  grid-row: 5;
-  grid-column: 2;
-  -ms-grid-row: 5;
-  -ms-grid-column: 2;
   grid-area: exp;
 }
 
 .profile-edu {
   word-break: break-word;
-  grid-row: 5;
-  grid-column: 2;
-  -ms-grid-row: 5;
-  -ms-grid-column: 2;
   grid-area: edu;
 }
 
@@ -550,7 +537,6 @@ input {
     -ms-grid-row: 1;
     -ms-grid-column: 1;
     -ms-grid-column-span: 3;
-    grid-area: top;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -623,8 +609,6 @@ input {
   }
   .profile-grid {
     grid-template-areas:
-      'top'
-      'about'
       'exp'
       'edu';
   }
@@ -661,18 +645,6 @@ input {
     -ms-grid-row: 3;
     -ms-grid-column: 1;
     -ms-grid-column-span: 1;
-  }
-  .profile-exp {
-    grid-row: 5;
-    grid-column: 1;
-    -ms-grid-row: 5;
-    -ms-grid-column: 1;
-  }
-  .profile-edu {
-    grid-row: 7;
-    grid-column: 1;
-    -ms-grid-row: 7;
-    -ms-grid-column: 1;
   }
   .img img {
     width: 100%;
