@@ -1,7 +1,7 @@
-import React, { Fragment, useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
-import ProjectsTop from "./ProjectsTop";
+import React, { Fragment, useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import ProjectsTop from './ProjectsTop';
 
 const Projects = () => {
   useEffect(() => {
@@ -16,7 +16,7 @@ const Projects = () => {
           <div id="img">
             <div data-aos="fade-right" className="img">
               <a
-                href="https://github.com/Austinmoore1492/FLWConnected-Front-End"
+                href="https://www.flwconnect.org/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -33,6 +33,14 @@ const Projects = () => {
                 rel="noopener noreferrer"
               >
                 Code
+              </a>
+              |
+              <a
+                href="https://www.flwconnect.org/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Live Site
               </a>
             </div>
 
