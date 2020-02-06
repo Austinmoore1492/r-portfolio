@@ -28,14 +28,8 @@ const About = () => {
 					</p>
 					<p className='py'>
 						From there I just kept learning new technologies and new techniques. From building a simple
-						hangman game to launching my first mobile game on the{' '}
-						<a
-							className='border-bottom'
-							href='https://play.google.com/store/apps/details?id=com.YourCompany.Ace12&hl=en_US'
-						>
-							Google Play Store
-						</a>
-						. After that I wanted to learn even more and dug deep into JavaScript.
+						hangman game to launching my first mobile game on the Google Play Store. After that I wanted to
+						learn even more and dug deep into JavaScript.
 					</p>
 					<div className='line' />
 					<h2 className='text-primary'>Where I Am Today</h2>
