@@ -10,7 +10,7 @@ const ProfileEducation = () => (
           <strong>Degree: </strong>Bachelors
         </p>
         <p>
-          <strong>Field Of Study: </strong>Managment Information Systems
+          <strong>Field Of Study: </strong>Management Information Systems
         </p>
         <p>
           <strong>Description: </strong>The Management Information Systems
