@@ -1,14 +1,8 @@
-import React, { Fragment, useEffect } from 'react';
-import AOS from 'aos';
+import React, { Fragment } from 'react';
 
 import AboutTop from './AboutTop';
 
-const About = () => {
-  useEffect(() => {
-    AOS.init();
-  }, []);
-
-  return (
+const About = () => (
     <Fragment>
       <AboutTop />
       <div className="profileContainer m-auto">
@@ -46,6 +40,5 @@ const About = () => {
       </div>
     </Fragment>
   );
-};
 
 export default About;
