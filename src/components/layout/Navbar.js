@@ -6,13 +6,13 @@ const Navbar = () => {
     const nav = document.querySelector("#navbar");
     window.scrollY <= 100
       ? nav.setAttribute(
-          "style",
-          "background-color: #343a40; border-color: #003b6f;"
-        )
+        "style",
+        "background-color: #343a40; border-color: #003b6f;"
+      )
       : nav.setAttribute(
-          "style",
-          "background-color: #003b6f; border-color: #343a40;"
-        );
+        "style",
+        "background-color: #003b6f; border-color: #343a40;"
+      );
   };
   return (
     <nav id="navbar" className="navbar bg-dark">
@@ -33,7 +33,7 @@ const Navbar = () => {
         </li>
         |
         <li>
-          <a href="./Resume.pdf" target="_blank" rel="noopener noreferrer">
+          <a href="./myResume.pdf" target="_blank" rel="noopener noreferrer">
             Resume
           </a>
         </li>
