@@ -646,6 +646,9 @@ input {
     -ms-grid-column: 1;
     -ms-grid-column-span: 1;
   }
+  .img {
+    margin-bottom: 3rem;
+  }
   .img img {
     width: 100%;
   }
