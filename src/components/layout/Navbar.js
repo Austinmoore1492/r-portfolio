@@ -33,7 +33,7 @@ const Navbar = () => {
         </li>
         |
         <li>
-          <a href="./myResume.pdf" target="_blank" rel="noopener noreferrer">
+          <a href="./resume.pdf" target="_blank" rel="noopener noreferrer">
             Resume
           </a>
         </li>

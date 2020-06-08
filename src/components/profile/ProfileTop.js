@@ -10,8 +10,8 @@ const ProfileTop = () => (
       /> */}
       <div className="profile-info">
         <h1 className="large">Austin Moore</h1>
-        <p className="lead">Knowledge Manager/Web Developer</p>
-        <p className="lead">at BMA</p>
+        <p className="lead">Developer</p>
+        <p className="lead">at Twenty Over Ten</p>
         <div className="icons my-1">
           <a
             href="https://github.com/Austinmoore1492"
@@ -25,7 +25,7 @@ const ProfileTop = () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-           <i className="fas fa-envelope-open-text fa-2x p-1"></i>
+            <i className="fas fa-envelope-open-text fa-2x p-1"></i>
           </a>
           <a
             href="https://www.linkedin.com/in/austin-moore-668807146/"
