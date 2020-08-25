@@ -6,10 +6,33 @@ const Projects = () => (
     <ProjectsTop />
     <div className="profileContainer m-auto">
       <div id="projects">
+
         <div id="img">
+
           <div className="img">
             <a
-              href="https://www.flwconnect.org/"
+              href="https://weary-traveler-job-board.herokuapp.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src="./img/techJobs.PNG" alt="Remote Tech Jobs!" />
+            </a>
+            <h3>Remote Technology Job Board</h3>
+            <p>Your one stop shop for all Remote Tech Jobs</p>
+            <p className="p-border">Built with React, Node, Express, and Stripe!</p>
+
+            <a
+              href="https://weary-traveler-job-board.herokuapp.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Live Site (Heroku)
+            </a>
+          </div>
+
+          <div className="img">
+            <a
+              href="https://flwconnect.herokuapp.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -29,11 +52,11 @@ const Projects = () => (
             </a>
             |
             <a
-              href="https://www.flwconnect.org/"
+              href="https://flwconnect.herokuapp.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Live Site
+              Live Site(Heroku)
             </a>
           </div>
 
@@ -102,7 +125,7 @@ const Projects = () => (
 
           <div className="img">
             <a
-              href="https://overwatch-stats-tracker.herokuapp.com/"
+              href="https://github.com/Austinmoore1492/OverWatch-Stats"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -118,42 +141,7 @@ const Projects = () => (
             >
               Code
             </a>
-            |
-            <a
-              href="https://overwatch-stats-tracker.herokuapp.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Live Site (Heroku)
-            </a>
-          </div>
 
-          <div className="img">
-            <a
-              href="https://csb-5ykb2.austinmoore1492.now.sh/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src="./img/astronomy.png" alt="Display NASAs POTD" />
-            </a>
-            <h3>Astronomy Picture of the Day</h3>
-            <p>Display NASAs Picture of the Day</p>
-            <p className="p-border">Built with React!</p>
-            <a
-              href="https://github.com/Austinmoore1492/pic-of-the-day"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Code
-            </a>
-            |
-            <a
-              href="https://csb-5ykb2.austinmoore1492.now.sh/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Live Site
-            </a>
           </div>
 
           <div className="img">

@@ -20,7 +20,7 @@ const Navbar = () => {
         <Link to="/">
           <span className="reactColor">A</span>
           <span className="vueColor">S</span>
-          <span className="angularColor">M</span>
+          <span className="angularColor">L</span>
         </Link>
       </h1>
       <ul>

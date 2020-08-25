@@ -9,8 +9,8 @@ const ProfileTop = () => (
         alt=""
       /> */}
       <div className="profile-info">
-        <h1 className="large">Austin Moore</h1>
-        <p className="lead">Developer</p>
+        <h1 className="large">Austin Leaverton</h1>
+        <p className="lead">Developer Support</p>
         <p className="lead">at Twenty Over Ten</p>
         <div className="icons my-1">
           <a
@@ -21,7 +21,7 @@ const ProfileTop = () => (
             <i className="fab fa-github fa-2x p-1" />
           </a>
           <a
-            href="mailto:austinmoore1492@yahoo.com"
+            href="mailto:austinleaverton@yahoo.com"
             target="_blank"
             rel="noopener noreferrer"
           >
