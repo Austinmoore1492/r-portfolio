@@ -28,7 +28,7 @@ const ProfileTop = () => (
             <i className="fas fa-envelope-open-text fa-2x p-1"></i>
           </a>
           <a
-            href="https://www.linkedin.com/in/austin-moore-668807146/"
+            href="https://www.linkedin.com/in/austin-leaverton-668807146/"
             target="_blank"
             rel="noopener noreferrer"
           >
