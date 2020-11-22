@@ -11,7 +11,7 @@ const Projects = () => (
 
           <div className="img">
             <a
-              href="https://weary-traveler-job-board.herokuapp.com/"
+              href="https://tech-job-board.herokuapp.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -22,7 +22,7 @@ const Projects = () => (
             <p className="p-border">Built with React, Node, Express, and Stripe!</p>
 
             <a
-              href="https://weary-traveler-job-board.herokuapp.com/"
+              href="https://tech-job-board.herokuapp.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -32,7 +32,7 @@ const Projects = () => (
 
           <div className="img">
             <a
-              href="https://flwconnect.herokuapp.com/"
+              href="https://flw-connect.herokuapp.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -52,7 +52,7 @@ const Projects = () => (
             </a>
             |
             <a
-              href="https://flwconnect.herokuapp.com/"
+              href="https://flw-connect.herokuapp.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -62,7 +62,7 @@ const Projects = () => (
 
           <div className="img">
             <a
-              href="https://react-test-store.herokuapp.com/"
+              href="https://ryo-store.herokuapp.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -85,7 +85,7 @@ const Projects = () => (
             </a>
             |
             <a
-              href="https://react-test-store.herokuapp.com/"
+              href="https://ryo-store.herokuapp.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -95,7 +95,7 @@ const Projects = () => (
 
           <div className="img">
             <a
-              href="https://flw-vent-it-out.herokuapp.com/"
+              href="https://vent-it-out.herokuapp.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -115,7 +115,7 @@ const Projects = () => (
             </a>
             |
             <a
-              href="https://flw-vent-it-out.herokuapp.com/"
+              href="https://vent-it-out.herokuapp.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
