@@ -93,56 +93,7 @@ const Projects = () => (
             </a>
           </div>
 
-          <div className="img">
-            <a
-              href="https://vent-it-out.herokuapp.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src="./img/ventItOut.png" alt="Vent it out" />
-            </a>
-            <h3>Vent It Out</h3>
-            <p>A place for people to say what they want</p>
-            <p className="p-border">
-              Built with Vue, Express, MongoDB, and Node!
-            </p>
-            <a
-              href="https://github.com/Austinmoore1492/Vent-It-Out"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Code
-            </a>
-            |
-            <a
-              href="https://vent-it-out.herokuapp.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Live Site (Heroku)
-            </a>
-          </div>
-
-          <div className="img">
-            <a
-              href="https://github.com/Austinmoore1492/OverWatch-Stats"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src="./img/overwatch.png" alt="search overwatch Stats" />
-            </a>
-            <h3>OverWatch Stats Tracker</h3>
-            <p>Track OverWatch stats</p>
-            <p className="p-border">Built with Vue, Express, and Node!</p>
-            <a
-              href="https://github.com/Austinmoore1492/OverWatch-Stats"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Code
-            </a>
-
-          </div>
+          
 
           <div className="img">
             <a
