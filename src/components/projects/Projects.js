@@ -11,22 +11,22 @@ const Projects = () => (
 
           <div className="img">
             <a
-              href="https://tech-job-board.herokuapp.com/"
+              href="https://support-jobs.com"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="./img/techJobs.PNG" alt="Remote Tech Jobs!" />
+              <img src="./img/supportJobs.png" alt="Remote Tech Jobs!" />
             </a>
-            <h3>Remote Technology Job Board</h3>
+            <h3>Remote Customer Support Job Board</h3>
             <p>Your one stop shop for all Remote Tech Jobs</p>
             <p className="p-border">Built with React, Node, Express, and Stripe!</p>
 
             <a
-              href="https://tech-job-board.herokuapp.com/"
+              href="https://support-jobs.com"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Live Site (Heroku)
+              Live Site
             </a>
           </div>
 
