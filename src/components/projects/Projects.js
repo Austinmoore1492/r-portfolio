@@ -15,10 +15,10 @@ const Projects = () => (
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="./img/supportJobs.png" alt="Remote Tech Jobs!" />
+              <img src="./img/supportJobs.png" alt="Remote Support Jobs!" />
             </a>
             <h3>Remote Customer Support Job Board</h3>
-            <p>Your one stop shop for all Remote Tech Jobs</p>
+            <p>Your one stop shop for all Remote Support Jobs</p>
             <p className="p-border">Built with React, Node, Express, and Stripe!</p>
 
             <a
